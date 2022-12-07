@@ -1,7 +1,7 @@
 {
   "name": "gamefun",
   "version": "1.0.0",
-  "description": "一个介绍各种游戏攻略的站点",
+  "description": "收录一些游戏攻略的小站",
   "main": "index.js",
   "scripts": {
     "clean-dev": "vuepress dev --clean-cache",

@@ -11,7 +11,7 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "游戏小屋",
-      description: "一个介绍各种游戏攻略的站点",
+      description: "收录一些游戏攻略的小站",
     },
   },
 
