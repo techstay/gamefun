@@ -4,7 +4,11 @@ import { sidebar } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://gamefun.cf",
-
+  themeColor: {
+    blue: "#0081CF",
+    pink: "#FF6F91",
+    orange: "#FF9671",
+  },
   author: {
     name: "techstay",
     url: "https://github.com/techstay",
