@@ -53,18 +53,20 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      provider: "Giscus",
-      repo: "techstay/giscus-comment",
-      repoId: "R_kgDOIXlpSg",
-      category: "Announcements",
-      categoryId: "DIC_kwDOIXlpSs4CSXQU",
-      mapping: "url",
+      // provider: "Giscus",
+      // repo: "techstay/giscus-comment",
+      // repoId: "R_kgDOIXlpSg",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOIXlpSs4CSXQU",
+      // mapping: "url",
 
       /**
        * Using Waline
        */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      provider: "Waline",
+      serverURL: "https://waline.techstay.tech",
+      dark: 'auto',
+      reaction: true
     },
 
     // Disable features you don’t want here
